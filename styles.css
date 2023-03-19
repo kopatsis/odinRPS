@@ -1,0 +1,73 @@
+.whole{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #39FF14;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 24px;
+}
+
+h1{
+    font-size: 48px;
+    padding: 20px;
+}
+
+.record{
+    align-items: center;
+}
+
+.icon{
+    border: 3px solid #39FF14;
+    border-radius: 7%;
+    transition: all .25s ease;
+}
+
+.clicked{
+    border: 4px solid white;
+    border-radius: 7%;
+}
+
+.buttons > img{
+    cursor: pointer;
+    max-height: 250px;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+}
+
+li{
+    padding: 20px;
+}
+
+#reset{
+    color: #39FF14;
+    font-family: 'Courier New', Courier, monospace;
+    border: solid #39FF14;
+    background-color: transparent;
+    border-radius: 7%;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+.buttonhouse{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#record{
+    padding: 20px;
+}
+
+.to_user{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+body{
+    background: linear-gradient(109.6deg, rgb(36, 45, 57) 11.2%, rgb(16, 37, 60) 51.2%, rgb(0, 0, 0) 98.6%);
+}
